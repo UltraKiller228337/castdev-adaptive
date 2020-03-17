@@ -1,0 +1,24 @@
+ .btn {
+ 	padding: 14px 25px;
+ 	border-radius: 50px;
+	border: none;
+ }
+
+ .btn.-lite {
+ 	background-color: var(--color-white);
+ 	color: var(--color-text-blue);
+ }
+
+ .btn.-green {
+ 	font-size: 14px;
+ 	padding: 14px 40px;
+
+	color: var(--color-white);
+ 	background: #64E2CD;
+
+ 	text-transform: uppercase;
+
+ 	box-shadow: 0 0 0 13px rgba(100, 226, 205, 0.5);
+
+	margin-left: 13px;
+ }
