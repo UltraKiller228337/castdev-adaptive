@@ -20,19 +20,36 @@
 
 .header__link.-up {
 	text-transform: uppercase;
-}
-
-.header__link.-blue {
 	color: #2F80ED;
+	font-style: normal;
 	font-weight: bold;
 }
 
+.header__link:after {
+	position: absolute;
+	left: 370px;
+	display: none;
+	height: 0;
+	width: 0;
+	border: 3.5px solid transparent; 
+	border-top: 7px solid #2F80ED;
+	display: none;
+	content: "";
+}
+
 @media  screen and (max-width: 1023px) {
-	.header__link {
-		display: none;
+	.header__link:after {
+		display: inline-block;
 	}
 
-	.header__link.-up.-blue {
-		display: inline-block;
+	.header {
+		display: flex;
+		justify-content: flex-start;
+	}
+}
+
+@media  screen and (max-width: 1280px) {
+	.header__nav {
+		display: none;
 	}
 }

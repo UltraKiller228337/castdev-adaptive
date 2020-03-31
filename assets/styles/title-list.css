@@ -106,4 +106,9 @@
 	.title-list {
 		flex-direction: column;
 	}
+
+	.circle {
+		top: 610px;
+		left: 100px;
+	}
 }

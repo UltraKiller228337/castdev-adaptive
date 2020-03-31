@@ -22,3 +22,15 @@
 
 	margin-left: 13px;
  }
+
+ @media screen and (max-width: 1023px) {
+ 	.btn.-lite {
+ 		padding: 0;
+ 		background-color: transparent;
+ 		border-radius: 0;
+ 		color: var(--color-white);
+ 		font-size: 14px;
+ 		font-weight: normal;
+ 		margin-left: 140px;
+ 	}
+ }
