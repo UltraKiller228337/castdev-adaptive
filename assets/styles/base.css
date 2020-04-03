@@ -7,9 +7,7 @@ body, h1, h2, h3, h4, h5, p, a, ul, ol {
 }
 
 body {
-	background-image: url(../img/header__bg.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+	
 }
 
 img {
@@ -24,10 +22,3 @@ a {
 	text-decoration: none;
 }
 
-@media screen and (max-width: 1023px) {
-	body {
-		background-image: url(../img/tab__bg.png);
-		background-repeat: no-repeat;
-		background-position-x: 40px;
-	}
-}

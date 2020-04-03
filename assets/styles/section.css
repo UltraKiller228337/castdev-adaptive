@@ -1,0 +1,20 @@
+.section {
+	padding-top: 280px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.two.-left {
+	width: 50%;
+}
+
+.two.-right {
+ 	width: 50%; 
+}
+
+.left__title {
+	color: black;
+	width: 350px;
+}
