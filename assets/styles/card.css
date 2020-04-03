@@ -1,0 +1,12 @@
+.card {
+	width: 310px;
+	height: 220px;
+}
+
+.card__text {
+	color: black;
+}
+
+.card__title {
+	color: black;
+}
