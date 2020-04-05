@@ -2,10 +2,14 @@ body, h1, h2, h3, h4, h5, p, a, ul, ol {
 	margin: 0;
 	padding: 0;
 	font-family: "Montserrat";
+	font-size: 14px;
 }
 
 body {
-	
+	background-image: url(../img/header__bg.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 100%;
 }
 
 img {
@@ -20,3 +24,15 @@ a {
 	text-decoration: none;
 }
 
+@media screen and (max-width: 1149px) {
+	body {
+		background-size: 1140px;
+		background-position-x: left; 
+	}
+}
+
+@media screen and (max-width: 767px) {
+	body {
+		background-position-x: -280px; 
+	}
+}
