@@ -20,6 +20,7 @@
 }
 
 .header__link.-up {
+	position: relative;
 	text-transform: uppercase;
 	color: #2F80ED;
 	font-style: normal;
@@ -28,7 +29,8 @@
 
 .header__link:after {
 	position: absolute;
-	left: 370px;
+	top: 6px;
+	right: -15px;
 	display: none;
 	height: 0;
 	width: 0;

@@ -1,12 +1,25 @@
 .card {
-	width: 310px;
+
+	width: 45%;
 	height: 220px;
+	margin-right: 35px;
+	margin-bottom: 60px;
+
+	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.1);
 }
 
 .card__text {
+	padding-left: 54px; 
+
+	width: 300px;
+
 	color: black;
 }
 
 .card__title {
+	padding-left: 54px;
+	padding-bottom: 14px;
+	padding-top: 35px;
+
 	color: black;
 }

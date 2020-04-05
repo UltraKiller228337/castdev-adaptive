@@ -1,20 +1,15 @@
 .section {
-	padding-top: 280px;
+	padding-top: 160px;
+}
 
+.content {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.left {
-	width: 50%;
-}
-
-.right {
- 	width: 50%; 
-}
-
-.left__title {
-	color: black;
-	width: 350px;
+@media screen (max-width: 1023px;) {
+	.content {
+		flex-direction: column;
+	}
 }

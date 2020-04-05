@@ -1,0 +1,18 @@
+.features__content {
+	display: flex;
+	flex-wrap: wrap;
+
+ 	min-width: 666px; 
+}
+
+.features__title {
+	color: black;
+
+	font-weight: bold;
+	font-size: 30px; 
+
+	max-width: 30%;
+
+	margin-right: 15%;
+	padding-left: 100px;
+}
