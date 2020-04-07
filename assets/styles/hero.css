@@ -1,19 +1,5 @@
 .hero {
 	min-height: 100vh;
-/*
-	background-image: url(../img/header__bg.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-size: 100%;*/
 
 	color: white;
-}
-
-@media screen and (max-width: 1023px) {
-	/*.hero {
-		padding-bottom: 220px;
-		background-image: url(../img/tab__bg.png);
-		background-repeat: no-repeat;
-		background-position-x: 40px;
-	}*/
 }

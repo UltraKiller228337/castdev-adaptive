@@ -44,20 +44,34 @@
 	display: none;
 }
 
+.burger__layer {
+	width: 10px;
+	height: 2px;
+
+	margin-bottom: 4px;
+	background-color: white;
+}
+
 @media  screen and (max-width: 1023px) {
 	.header__link:after {
 		display: inline-block;
+	}
+
+	.header__nav {
+		display: none;
 	}
 
 	.header {
 		display: flex;
 		justify-content: flex-start;
 	}
-}
 
-@media  screen and (max-width: 1280px) {
-	.header__nav {
-		display: none;
+	.burger {
+		display: block;
+	}
+
+	.burger__layer {
+		display: block;
 	}
 }
 
@@ -68,5 +82,13 @@
 
 	.header__link:after {
 		border-top: 7px solid white;
+	}
+
+	.burger {
+		display: block;
+	}
+
+	.burger__layer {
+		display: block;
 	}
 }
