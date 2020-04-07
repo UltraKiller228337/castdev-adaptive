@@ -62,6 +62,7 @@
 @media screen and (max-width: 1023px) {
 	.circle.-hero {
 		left: 100px;
+		top: 350px;
 	}
 }
 
