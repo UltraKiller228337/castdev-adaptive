@@ -72,11 +72,10 @@
 
 @media screen and (max-width: 767px) {
 	.header {
-		display: flex;
-		justify-content: flex-start;
+		padding: 0 15px;
 	}
 
-	.header__link.-up {
+	.header__cities {
 		display: none;
 	}
 
@@ -86,7 +85,6 @@
 
 	.burger {
 		display: block;
-		margin-left: 160px;
 	}
 
 	.burger__layer {

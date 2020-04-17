@@ -9,7 +9,6 @@
 .features__title {
 	font-weight: bold;
 	font-size: 30px; 
-	padding-right: 50px;
 }
 
 @media screen and (max-width: 1099px) {
