@@ -3,6 +3,7 @@
 }
 
 .stay-in-touch__content {
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -24,6 +25,10 @@
 }
 
 @media screen and (max-width: 1023px) {
+	.stay-in-touch__content-left {
+		width: 100%;
+	}
+
 	.stay-in-touch__content-right {
 		display: block;
 
