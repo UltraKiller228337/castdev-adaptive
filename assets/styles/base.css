@@ -16,6 +16,13 @@ img {
 	max-width: 100%;
 }
 
+.link {
+	font-size: 14px;
+	color: var(--color-text-blue);
+	text-align: center;
+	border-bottom: dashed 1px var(--color-text-blue);
+}
+
 * {
 	box-sizing: border-box;
 }

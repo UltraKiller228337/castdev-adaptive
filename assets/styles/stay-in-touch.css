@@ -1,0 +1,34 @@
+.stay-in-touch {
+	position: relative;
+}
+
+.stay-in-touch__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.stay-in-touch__content-left {
+	width: 55%;
+
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.stay-in-touch__content-right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 45%;
+}
+
+@media screen and (max-width: 1023px) {
+	.stay-in-touch__content-right {
+		display: block;
+
+		position: absolute;
+		bottom: 40px;
+		right: 0;
+	}
+}

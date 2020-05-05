@@ -1,5 +1,26 @@
+.for-whom {
+	background-image: url(../img/bg__for-whom.png);
+	background-repeat: no-repeat;
+	background-size: 90%;
+	background-position: right 30px;
+
+	padding-top: 90px;
+
+	position: relative;
+
+	overflow: hidden;
+}
+
 .for-whom__content {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
+
+	padding: 0 30px;
+}
+
+@media screen and (max-width: 767px) {
+	.for-whom__content {
+		flex-direction: column;
+	}
 }

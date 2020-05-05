@@ -16,6 +16,13 @@
 	bottom: 0;
 }
 
+.circle.-for-whom {
+	right: -80px;
+	top: 0;
+
+	filter: blur(20px);
+}
+
 .circle__assessment {
 	margin-top: 45px;
 	margin-bottom: 12px;
